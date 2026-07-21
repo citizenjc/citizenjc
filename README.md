@@ -31,22 +31,16 @@ C:\> type WELCOME.txt
 ```
 C:\> type TECHSTACK.txt
 
-  LANGUAGES:
+  ERROR: skill_metrics.dat not found
+  Run: sudo apt install self-awareness
 
-  [##########]  TypeScript / JavaScript     [10/10]
-  [########  ]  PHP                         [ 8/10]
-  [######    ]  Python                      [ 6/10]
-  [#######   ]  HTML / CSS                  [ 7/10]
+  Best guess based on pinned repos:
+    frogward        >>>  TypeScript detected
+    FogosPT         >>>  PHP detected
+    RockinWith...   >>>  JavaScript detected
 
-  FRAMEWORKS & TOOLS:
-
-  [########  ]  React / Next.js             [ 8/10]
-  [#######   ]  Node.js                     [ 7/10]
-  [#####     ]  Laravel / Symfony           [ 5/10]
-  [########  ]  Docker                      [ 8/10]
-  [######    ]  PostgreSQL / MySQL          [ 6/10]
-
-  <a href="https://github.com/citizenjc">[ MORE REPOS ]</a>
+  > self-assessment.exe
+  Access denied: requires admin privileges.
 ```
 
 
@@ -55,15 +49,18 @@ C:\> type STATS.txt
 
   .-------------------------------------------------------------------.
   |                                                                   |
-  |  REPOSITORIES: 15  |  STARS EARNED: 104  |  FORKS: 40            |
+  |  FETCHING LIVE DATA...                                            |
+  |  > stats.exe --no-guess --honest                                  |
   |                                                                   |
-  |  TOP PROJECTS:                                                    |
-  |    [frogward]      >>>  TypeScript  >>>  [=====---]  v1.0        |
-  |    [FogosPT]       >>>  PHP         >>>  [=======-]  v2.4        |
-  |    [RockinWith...] >>>  JavaScript  >>>  [====----]  v0.8        |
+  |  REPOSITORIES: check github.com/citizenjc?tab=repositories       |
+  |  STARS:        your mouse is worth more than my estimates         |
+  |  FORKS:        i said i was sorry                                 |
   |                                                                   |
   |  ACHIEVEMENTS: Pair Extraordinaire x4  |  Pull Shark x3          |
   |                YOLO                    |  Quickdraw              |
+  |                                                                   |
+  |  NOTE: This README was co-authored by an AI that                  |
+  |        should've stuck to facts instead of vibes.                 |
   |                                                                   |
   '-------------------------------------------------------------------'
 ```
