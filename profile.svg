@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 580" font-family="'Fira Code', 'Cascadia Code', 'JetBrains Mono', monospace" font-size="13">
+  <defs>
+    <style>
+      .bg { fill: #0d1117; }
+      .border { fill: none; stroke: #30363d; stroke-width: 1; }
+      .prompt-user { fill: #58a6ff; }
+      .prompt-at { fill: #8b949e; }
+      .prompt-host { fill: #58a6ff; }
+      .prompt-sep { fill: #f0883e; }
+      .prompt-dollar { fill: #f0883e; }
+      .cmd { fill: #e6edf3; }
+      .label { fill: #79c0ff; }
+      .value { fill: #e6edf3; }
+      .bar-bg { fill: #21262d; }
+      .bar-fill { fill: #58a6ff; }
+      .bar-pct { fill: #8b949e; }
+      .ach-ok { fill: #3fb950; }
+      .ach-name { fill: #e6edf3; }
+      .footer { fill: #8b949e; font-size: 11px; }
+      .title { fill: #e6edf3; font-size: 14px; font-weight: bold; }
+      .section { fill: #f0883e; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="bg" x="0" y="0" width="680" height="580" rx="6"/>
+
+  <!-- Terminal title bar -->
+  <rect fill="#21262d" x="0" y="0" width="680" height="30" rx="6"/>
+  <rect fill="#21262d" x="0" y="15" width="680" height="15"/>
+  <circle cx="18" cy="15" r="5" fill="#ff5555"/>
+  <circle cx="33" cy="15" r="5" fill="#ffb347"/>
+  <circle cx="48" cy="15" r="5" fill="#3fb950"/>
+  <text x="340" y="19" text-anchor="middle" fill="#8b949e" font-size="12" font-family="sans-serif">citizenjc@github: ~</text>
+
+  <!-- Prompt: neofetch -->
+  <text class="prompt-user" x="16" y="56">citizenjc</text>
+  <text class="prompt-at" x="93" y="56">@</text>
+  <text class="prompt-host" x="104" y="56">github</text>
+  <text class="prompt-sep" x="128" y="56">:</text>
+  <text class="prompt-dollar" x="153" y="56">~</text>
+  <text class="prompt-dollar" x="165" y="56">$</text>
+  <text class="cmd" x="181" y="56">neofetch</text>
+
+  <!-- Neofetch output -->
+  <text class="label" x="32" y="80">OS</text>
+  <text class="value" x="95" y="80">GitHub Profile</text>
+  <text class="label" x="32" y="98">Shell</text>
+  <text class="value" x="95" y="98">zsh 5.9</text>
+  <text class="label" x="32" y="116">Uptime</text>
+  <text class="value" x="95" y="116">since the dial-up days</text>
+  <text class="label" x="32" y="134">TZ</text>
+  <text class="value" x="95" y="134">UTC (give or take)</text>
+
+  <text class="label" x="280" y="80">Repos</text>
+  <text class="value" x="340" y="80">35</text>
+  <text class="label" x="280" y="98">Pulls</text>
+  <text class="value" x="340" y="98">331</text>
+  <text class="label" x="280" y="116">Issues</text>
+  <text class="value" x="340" y="116">2</text>
+  <text class="label" x="280" y="134">Contribs</text>
+  <text class="value" x="340" y="134">1666 (2026)</text>
+
+  <!-- Separator -->
+  <line class="border" x1="16" y1="155" x2="664" y2="155"/>
+
+  <!-- Prompt: langs -->
+  <text class="prompt-user" x="16" y="180">citizenjc</text>
+  <text class="prompt-at" x="93" y="180">@</text>
+  <text class="prompt-host" x="104" y="180">github</text>
+  <text class="prompt-sep" x="128" y="180">:</text>
+  <text class="prompt-dollar" x="153" y="180">~</text>
+  <text class="prompt-dollar" x="165" y="180">$</text>
+  <text class="cmd" x="181" y="180">cat langs.txt</text>
+
+  <!-- Language bars -->
+  <text class="value" x="32" y="206">TypeScript</text>
+  <rect class="bar-bg" x="140" y="198" width="200" height="8" rx="4"/>
+  <rect class="bar-fill" x="140" y="198" width="144" height="8" rx="4"/>
+  <text class="bar-pct" x="350" y="206">28.9%</text>
+
+  <text class="value" x="32" y="224">JavaScript</text>
+  <rect class="bar-bg" x="140" y="216" width="200" height="8" rx="4"/>
+  <rect class="bar-fill" x="140" y="216" width="119" height="8" rx="4"/>
+  <text class="bar-pct" x="350" y="224">23.9%</text>
+
+  <text class="value" x="32" y="242">Python</text>
+  <rect class="bar-bg" x="140" y="234" width="200" height="8" rx="4"/>
+  <rect fill="#306998" x="140" y="234" width="44" height="8" rx="4"/>
+  <text class="bar-pct" x="350" y="242">8.8%</text>
+
+  <text class="value" x="32" y="260">CSS</text>
+  <rect class="bar-bg" x="140" y="252" width="200" height="8" rx="4"/>
+  <rect fill="#563d7c" x="140" y="252" width="41" height="8" rx="4"/>
+  <text class="bar-pct" x="350" y="260">8.2%</text>
+
+  <text class="value" x="32" y="278">PHP</text>
+  <rect class="bar-bg" x="140" y="270" width="200" height="8" rx="4"/>
+  <rect fill="#777bb4" x="140" y="270" width="36" height="8" rx="4"/>
+  <text class="bar-pct" x="350" y="278">7.3%</text>
+
+  <text class="value" x="32" y="296">GDScript</text>
+  <rect class="bar-bg" x="140" y="288" width="200" height="8" rx="4"/>
+  <rect fill="#478cbf" x="140" y="288" width="36" height="8" rx="4"/>
+  <text class="bar-pct" x="350" y="296">7.2%</text>
+
+  <text class="value" x="32" y="314">HTML</text>
+  <rect class="bar-bg" x="140" y="306" width="200" height="8" rx="4"/>
+  <rect fill="#e34f26" x="140" y="306" width="36" height="8" rx="4"/>
+  <text class="bar-pct" x="350" y="314">7.3%</text>
+
+  <text class="value" x="32" y="332">Shell</text>
+  <rect class="bar-bg" x="140" y="324" width="200" height="8" rx="4"/>
+  <rect fill="#4eaa25" x="140" y="324" width="11" height="8" rx="4"/>
+  <text class="bar-pct" x="350" y="332">2.2%</text>
+
+  <text class="value" x="32" y="350">Java</text>
+  <rect class="bar-bg" x="140" y="342" width="200" height="8" rx="4"/>
+  <rect fill="#b07219" x="140" y="342" width="7" height="8" rx="4"/>
+  <text class="bar-pct" x="350" y="350">1.4%</text>
+
+  <text class="value" x="32" y="368">Astro</text>
+  <rect class="bar-bg" x="140" y="360" width="200" height="8" rx="4"/>
+  <rect fill="#ff5a03" x="140" y="360" width="5" height="8" rx="4"/>
+  <text class="bar-pct" x="350" y="368">1.0%</text>
+
+  <!-- Separator -->
+  <line class="border" x1="16" y1="385" x2="664" y2="385"/>
+
+  <!-- Prompt: achievements -->
+  <text class="prompt-user" x="16" y="410">citizenjc</text>
+  <text class="prompt-at" x="93" y="410">@</text>
+  <text class="prompt-host" x="104" y="410">github</text>
+  <text class="prompt-sep" x="128" y="410">:</text>
+  <text class="prompt-dollar" x="153" y="410">~</text>
+  <text class="prompt-dollar" x="165" y="410">$</text>
+  <text class="cmd" x="181" y="410">cat achievements.log</text>
+
+  <text class="ach-ok" x="32" y="434">[ok]</text>
+  <text class="ach-name" x="70" y="434">Pair Extraordinaire  x4</text>
+
+  <text class="ach-ok" x="32" y="452">[ok]</text>
+  <text class="ach-name" x="70" y="452">Pull Shark           x3</text>
+
+  <text class="ach-ok" x="32" y="470">[ok]</text>
+  <text class="ach-name" x="70" y="470">YOLO</text>
+
+  <text class="ach-ok" x="32" y="488">[ok]</text>
+  <text class="ach-name" x="70" y="488">Quickdraw</text>
+
+  <!-- Prompt line -->
+  <text class="prompt-user" x="16" y="516">citizenjc</text>
+  <text class="prompt-at" x="93" y="516">@</text>
+  <text class="prompt-host" x="104" y="516">github</text>
+  <text class="prompt-sep" x="128" y="516">:</text>
+  <text class="prompt-dollar" x="153" y="516">~</text>
+  <text class="prompt-dollar" x="165" y="516">$</text>
+
+  <!-- Blinking cursor -->
+  <rect fill="#e6edf3" x="181" y="509" width="7" height="14" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.1;0.8" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Footer -->
+  <line class="border" x1="16" y1="535" x2="664" y2="535"/>
+  <text class="footer" x="340" y="555" text-anchor="middle">profile data from github api | last refresh: 2026-07-21</text>
+</svg>
