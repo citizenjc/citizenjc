@@ -2,10 +2,10 @@
   <defs>
     <style>
       /* Tokyo Night palette */
-      .bg { fill: rgba(26, 27, 38, 0.88); }
+      .bg { fill: rgba(26, 27, 38, 0.7); }
       .bg-solid { fill: #1a1b26; }
       .border { fill: none; stroke: #3b4261; stroke-width: 1.5; }
-      .title-bg { fill: rgba(31, 35, 53, 0.92); }
+      .title-bg { fill: rgba(31, 35, 53, 0.75); }
       .title-text { fill: #565f89; font-size: 12px; font-family: sans-serif; font-weight: 600; }
       .surface { fill: rgba(36, 40, 59, 0.92); }
       .blue { fill: #7aa2f7; }
@@ -89,6 +89,13 @@
   <circle class="star-dim" cx="735" cy="150" r="0.8"/>
   <circle class="star" cx="740" cy="300" r="0.7" style="animation: twinkle 3.2s ease-in-out infinite 0.9s"/>
   <circle class="star-dim" cx="730" cy="500" r="0.9"/>
+  <!-- Behind terminal (visible through transparency) -->
+  <circle class="star-dim" cx="100" cy="200" r="1.2"/>
+  <circle class="star" cx="300" cy="350" r="1" style="animation: twinkle 3.1s ease-in-out infinite 0.7s"/>
+  <circle class="star-dim" cx="550" cy="250" r="0.9"/>
+  <circle class="star" cx="400" cy="500" r="0.8" style="animation: twinkle 3.8s ease-in-out infinite 1.5s"/>
+  <circle class="star-dim" cx="200" cy="450" r="1.1"/>
+  <circle class="star" cx="650" cy="400" r="0.7" style="animation: twinkle 2.6s ease-in-out infinite 0.3s"/>
 
   <!-- Full Moon -->
   <g>
