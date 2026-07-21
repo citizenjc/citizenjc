@@ -35,7 +35,6 @@
   Java            41.6 kB     1.4%
   Astro           28.5 kB     1.0%
   Others          40.9 kB     1.4%
-  (Strapi fork excluded -- would've been +4MB of vendor JS)
 
 ~$ cat account-stats.json | jq '.'
 {
