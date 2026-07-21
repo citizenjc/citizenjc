@@ -33,9 +33,9 @@
   <text x="16" y="56" fill="#58a6ff">citizenjc</text>
   <text x="88" y="56" fill="#8b949e">@</text>
   <text x="97" y="56" fill="#58a6ff">github</text>
-  <text x="148" y="56" fill="#8b949e">:</text>
-  <text x="156" y="56" fill="#f0883e">~$</text>
-  <text x="178" y="56" fill="#e6edf3">neofetch</text>
+  <text x="140" y="56" fill="#8b949e">:</text>
+  <text x="146" y="56" fill="#f0883e">~$</text>
+  <text x="164" y="56" fill="#e6edf3">neofetch</text>
 
   <!-- Neofetch output -->
   <text class="label" x="32" y="80">OS</text>
@@ -63,9 +63,9 @@
   <text x="16" y="180" fill="#58a6ff">citizenjc</text>
   <text x="88" y="180" fill="#8b949e">@</text>
   <text x="97" y="180" fill="#58a6ff">github</text>
-  <text x="148" y="180" fill="#8b949e">:</text>
-  <text x="156" y="180" fill="#f0883e">~$</text>
-  <text x="178" y="180" fill="#e6edf3">cat langs.txt</text>
+  <text x="140" y="180" fill="#8b949e">:</text>
+  <text x="146" y="180" fill="#f0883e">~$</text>
+  <text x="164" y="180" fill="#e6edf3">cat langs.txt</text>
 
   <!-- Language bars -->
   <text class="value" x="32" y="206">TypeScript</text>
@@ -125,9 +125,9 @@
   <text x="16" y="410" fill="#58a6ff">citizenjc</text>
   <text x="88" y="410" fill="#8b949e">@</text>
   <text x="97" y="410" fill="#58a6ff">github</text>
-  <text x="148" y="410" fill="#8b949e">:</text>
-  <text x="156" y="410" fill="#f0883e">~$</text>
-  <text x="178" y="410" fill="#e6edf3">cat achievements.log</text>
+  <text x="140" y="410" fill="#8b949e">:</text>
+  <text x="146" y="410" fill="#f0883e">~$</text>
+  <text x="164" y="410" fill="#e6edf3">cat achievements.log</text>
 
   <text class="ach-ok" x="32" y="434">[ok]</text>
   <text class="ach-name" x="70" y="434">Pair Extraordinaire  x4</text>
@@ -145,11 +145,11 @@
   <text x="16" y="516" fill="#58a6ff">citizenjc</text>
   <text x="88" y="516" fill="#8b949e">@</text>
   <text x="97" y="516" fill="#58a6ff">github</text>
-  <text x="148" y="516" fill="#8b949e">:</text>
-  <text x="156" y="516" fill="#f0883e">~$</text>
+  <text x="140" y="516" fill="#8b949e">:</text>
+  <text x="146" y="516" fill="#f0883e">~$</text>
 
   <!-- Blinking cursor -->
-  <rect fill="#e6edf3" x="178" y="506" width="7" height="10" opacity="0.8">
+  <rect fill="#e6edf3" x="164" y="504" width="7" height="12" opacity="0.8">
     <animate attributeName="opacity" values="0.8;0.1;0.8" dur="1.2s" repeatCount="indefinite"/>
   </rect>
 
