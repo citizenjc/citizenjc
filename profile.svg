@@ -141,11 +141,10 @@
       <stop offset="0%" stop-color="#c0caf5" stop-opacity="0.5"/>
       <stop offset="100%" stop-color="#c0caf5" stop-opacity="0"/>
     </linearGradient>
-    <!-- Typewriter clip-paths -->
-    <clipPath id="tw-cmd1"><rect x="24" y="14" width="0" height="18"><animate attributeName="width" values="0;8;16;23;31;39;47;55;62;70;78;86;94;101;109;117;125;133;140;148;156;164;172;179;187;195;203;211;218" dur="1s" begin="0.5s" fill="freeze"/></rect></clipPath>
-    <clipPath id="tw-cmd2"><rect x="24" y="139" width="0" height="18"><animate attributeName="width" values="0;8;16;23;31;39;47;55;62;70;78;86;94;101;109;117;125;133;140;148;156;164;172;179;187;195;203;211;218;226;234;242;250;257" dur="1.2s" begin="2.5s" fill="freeze"/></rect></clipPath>
-    <clipPath id="tw-cmd3"><rect x="24" y="369" width="0" height="18"><animate attributeName="width" values="0;8;16;23;31;39;47;55;62;70;78;86;94;101;109;117;125;133;140;148;156;164;172;179;187;195;203;211;218;226;234;242;250;257;265;273;281;289;296;304;312" dur="1.4s" begin="4.8s" fill="freeze"/></rect></clipPath>
-    <clipPath id="tw-cmd4"><rect x="24" y="475" width="0" height="18"><animate attributeName="width" values="0;8;16;23;31;39;47;55;62;70;78;86;94;101;109;117;125;133;140;148" dur="0.8s" begin="7.2s" fill="freeze"/></rect></clipPath>
+    <!-- Typewriter clip-paths (command text only) -->
+    <clipPath id="tw-cmd1"><rect x="186" y="14" width="0" height="18"><animate attributeName="width" values="0;8;16;23;31;39;47;55;62" dur="0.5s" begin="0.5s" fill="freeze"/></rect></clipPath>
+    <clipPath id="tw-cmd2"><rect x="186" y="139" width="0" height="18"><animate attributeName="width" values="0;8;16;23;31;39;47;55;62;70;78;86;94;101" dur="0.7s" begin="2.0s" fill="freeze"/></rect></clipPath>
+    <clipPath id="tw-cmd3"><rect x="186" y="369" width="0" height="18"><animate attributeName="width" values="0;8;16;23;31;39;47;55;62;70;78;86;94;101;109;117;125;133;140;148;156" dur="0.9s" begin="3.5s" fill="freeze"/></rect></clipPath>
   </defs>
 
   <!-- Shooting star 1 -->
@@ -233,14 +232,15 @@
     <!-- Terminal content -->
     <g transform="translate(0, 48)">
 
-    <g clip-path="url(#tw-cmd1)">
     <text x="24" y="28">
-      <tspan class="p-user">citizenjc</tspan><tspan class="p-at">@</tspan><tspan class="p-host">github</tspan><tspan class="p-dollar">:~$</tspan><tspan class="p-cmd" dx="6">neofetch</tspan>
+      <tspan class="p-user">citizenjc</tspan><tspan class="p-at">@</tspan><tspan class="p-host">github</tspan><tspan class="p-dollar">:~$ </tspan>
     </text>
+    <g clip-path="url(#tw-cmd1)">
+    <text x="186" y="28" class="p-cmd">neofetch</text>
     </g>
 
     <g opacity="0">
-      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.5s" fill="freeze"/>
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.0s" fill="freeze"/>
     <text class="label" x="40" y="52">OS</text>
     <text class="value" x="103" y="52">GitHub Profile</text>
     <text class="label" x="40" y="70">Shell</text>
@@ -259,15 +259,20 @@
     <text class="label" x="288" y="106">Contribs</text>
     <text class="value" x="368" y="106">2288 total</text>
     </g>
-    <!-- Separator -->
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="1.0s" fill="freeze"/>
     <line class="border" x1="24" y1="128" x2="676" y2="128"/>
-
-    <g clip-path="url(#tw-cmd2)">
-    <text x="24" y="153">
-      <tspan class="p-user">citizenjc</tspan><tspan class="p-at">@</tspan><tspan class="p-host">github</tspan><tspan class="p-dollar">:~$</tspan><tspan class="p-cmd" dx="6">cat langs.txt</tspan>
-    </text>
     </g>
 
+    <text x="24" y="153">
+      <tspan class="p-user">citizenjc</tspan><tspan class="p-at">@</tspan><tspan class="p-host">github</tspan><tspan class="p-dollar">:~$ </tspan>
+    </text>
+    <g clip-path="url(#tw-cmd2)">
+    <text x="186" y="153" class="p-cmd">cat langs.txt</text>
+    </g>
+
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="2.7s" fill="freeze"/>
     <text class="value" x="40" y="179">TypeScript</text>
     <rect class="bar-bg" x="148" y="171" width="200" height="8" rx="4"/>
     <rect class="blue" x="148" y="171" width="144" height="8" rx="4"/>
@@ -318,12 +323,15 @@
     <rect class="peach" x="148" y="333" width="5" height="8" rx="4" opacity="0.4"/>
     <text class="bar-pct" x="358" y="341">1.0%</text>
     <!-- Separator -->
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="4.4s" fill="freeze"/>
     <line class="border" x1="24" y1="358" x2="676" y2="358"/>
 
-    <g clip-path="url(#tw-cmd3)">
     <text x="24" y="383">
-      <tspan class="p-user">citizenjc</tspan><tspan class="p-at">@</tspan><tspan class="p-host">github</tspan><tspan class="p-dollar">:~$</tspan><tspan class="p-cmd" dx="6">cat achievements.log</tspan>
+      <tspan class="p-user">citizenjc</tspan><tspan class="p-at">@</tspan><tspan class="p-host">github</tspan><tspan class="p-dollar">:~$ </tspan>
     </text>
+    <g clip-path="url(#tw-cmd3)">
+    <text x="186" y="383" class="p-cmd">cat achievements.log</text>
     </g>
 
     <text class="ach-ok" x="40" y="407">[ok]</text>
@@ -334,11 +342,9 @@
     <text class="ach-name" x="78" y="443">YOLO</text>
     <text class="ach-ok" x="40" y="461">[ok]</text>
     <text class="ach-name" x="78" y="461">Quickdraw</text>
-    <g clip-path="url(#tw-cmd4)">
     <text x="24" y="489">
-      <tspan class="p-user">citizenjc</tspan><tspan class="p-at">@</tspan><tspan class="p-host">github</tspan><tspan class="p-dollar">:~$</tspan><tspan class="p-cursor" dx="2">&#9608;</tspan>
+      <tspan class="p-user">citizenjc</tspan><tspan class="p-at">@</tspan><tspan class="p-host">github</tspan><tspan class="p-dollar">:~$ </tspan><tspan class="p-cursor" dx="2">&#9608;</tspan>
     </text>
-    </g>
 
     <!-- Status line -->
     <rect class="surface" x="24" y="508" width="652" height="22" rx="4"/>
