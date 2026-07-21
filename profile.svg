@@ -149,7 +149,7 @@
   <text x="152" y="516" fill="#f0883e">~$</text>
 
   <!-- Blinking cursor -->
-  <rect fill="#e6edf3" x="170" y="509" width="7" height="14" opacity="0.8">
+  <rect fill="#e6edf3" x="170" y="503" width="7" height="13" opacity="0.8">
     <animate attributeName="opacity" values="0.8;0.1;0.8" dur="1.2s" repeatCount="indefinite"/>
   </rect>
 
