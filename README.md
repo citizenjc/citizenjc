@@ -1,19 +1,19 @@
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│  ┌───┐                                                         │
-│  │ ● │  citizenjc@github                                      │
-│  │ ● │  ────────────────────────────                           │
-│  │ ● │  OS:      GitHub Profile                               │
-│  └───┘  Shell:   zsh 5.9                                      │
-│         Uptime:  since the dial-up days                        │
-│         TZ:      UTC (give or take)                            │
-│         Tagline: full-stack by day, awake by night             │
-│                                                               │
-│  ┌───┐  packages: 35 (16 public, 19 private)                  │
-│  │ ● │  pulls:    331                                         │
-│  │ ● │  issues:   2                                           │
-│  │ ● │  contribs: 1666 in 2026 (most private)                 │
-│  └───┘                                                        │
+│  ┌───┐                                                          │
+│  │ ● │  citizenjc@github                                        │
+│  │ ● │  ────────────────────────────                            │
+│  │ ● │  OS:      GitHub Profile                                 │
+│  └───┘  Shell:   zsh 5.9                                        │
+│         Uptime:  since the dial-up days                         │
+│         TZ:      UTC (give or take)                             │
+│         Tagline: full-stack by day, awake by night              │
+│                                                                 │
+│  ┌───┐  packages: 35 (16 public, 19 private)                    │
+│  │ ● │  pulls:    331                                           │
+│  │ ● │  issues:   2                                             │
+│  │ ● │  contribs: 1666 in 2026 (most private)                   │
+│  └───┘                                                          │
 └─────────────────────────────────────────────────────────────────┘
 
   ~ $ cat langs.txt
@@ -39,7 +39,7 @@
 
   ~ $ █
 
-  ─────────────────────────────────────────────────────────────────
+  ───────────────────────────────────────────────────────────────
   profile data pulled from the github api | last refresh: 2026-07-21
 ```
 
