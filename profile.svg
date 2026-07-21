@@ -48,13 +48,13 @@
   <text class="value" x="95" y="134">UTC (give or take)</text>
 
   <text class="label" x="280" y="80">Repos</text>
-  <text class="value" x="335" y="80">35</text>
+  <text class="value" x="360" y="80">35</text>
   <text class="label" x="280" y="98">Pulls</text>
-  <text class="value" x="335" y="98">331</text>
+  <text class="value" x="360" y="98">331</text>
   <text class="label" x="280" y="116">Issues</text>
-  <text class="value" x="335" y="116">2</text>
+  <text class="value" x="360" y="116">2</text>
   <text class="label" x="280" y="134">Contribs</text>
-  <text class="value" x="335" y="134">1666 (2026)</text>
+  <text class="value" x="360" y="134">2288 total</text>
 
   <!-- Separator -->
   <line class="border" x1="16" y1="155" x2="664" y2="155"/>
