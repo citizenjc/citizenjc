@@ -1,132 +1,81 @@
 ```
- __  __    _    ____ ___  ___  ____    ____ ___  _   _ _   _ ____
-|  \/  |  / \  / ___/ _ \/ _ \|  _ \  / ___/ _ \| \ | | \ | / ___|
-| |\/| | / _ \| |  | | | | | | | | || |  | | | |  \| |  \| \___ \
-| |  | |/ ___ \ |__| |_| | |_| | |_| || |__| |_| | |\  | |\  |__) |
-|_|  |_/_/   \_\____\___/ \___/|____/  \____\___/|_| \_|_| \_|____/
+===============================================================================
+                       JOAO CAMPOS / citizenjc
+                       ------------------------
+                       "full-stack by day,
+                        godot/rust by night"
+===============================================================================
 
-              ██╗ ██████╗ █████╗ ███╗   ███╗██████╗ ███████╗
-              ██║██╔════╝██╔══██╗████╗ ████║██╔══██╗██╔════╝
-              ██║██║     ███████║██╔████╔██║██████╔╝███████╗
-              ██║██║     ██╔══██║██║╚██╔╝██║██╔═══╝ ╚════██║
-              ██║╚██████╗██║  ██║██║ ╚═╝ ██║██║     ███████║
-              ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝     ╚══════╝
+~$ whoami
+  Joao Campos. Code tinkerer, bug farmer, occasional game dev.
+  Full-stack generalist with a taste for retro aesthetics and
+  experimental side projects.
 
-              > system: USER PROFILE LOADED
-              > name:  Joao Campos / citizenjc
-              > date:  2026-07-21
-              > tty:   pts/0
-```
+~$ uptime
+  Status:   ONLINE
+  Since:    the dial-up days
+  TZ:       UTC (give or take)
 
-```
-C:\> type WELCOME.txt
 
-  Hey there, fellow netizen. Welcome to my digital digs.
-  I build things, break things, and occasionally fix things.
-  Currently wandering full-stack development with a soft spot
-  for retro computing aesthetics and experimental side projects.
+~$ du -sh --exclude=forks ~/repos 2>/dev/null || ls -la ~/repos
+  Total: 35 repos (16 public, 19 private)
 
-  Status:     ONLINE and accepting pull requests
-  Location:   Somewhere on the interwebs
-  Timezone:   UTC (give or take a few)
-  Uptime:     Been at this since the dial-up days
-```
 
-```
-C:\> type LANGS.txt
+~$ cat languages.csv | column -t -s,
+  Language       Bytes        Share
+  TypeScript     846.9 kB     28.9%
+  JavaScript     702.1 kB     23.9%
+  Python         258.6 kB      8.8%
+  CSS            242.5 kB      8.2%
+  PHP            213.5 kB      7.3%
+  HTML            72.9 kB      7.3%
+  GDScript       212.6 kB      7.2%
+  Blade           70.5 kB      2.4%
+  Shell           66.2 kB      2.2%
+  Java            41.6 kB      1.4%
+  Astro           28.5 kB      1.0%
+  Others          40.9 kB      1.4%
+  (Strapi fork excluded from total, would've been +4MB vendor JS)
 
-  Language profile (bytes written, excluding forks >= 50% share):
+~$ cat account-stats.json | jq '.'
+{
+  "repos":          35,
+  "pull_requests":  331,
+  "issues":          2,
+  "stars_earned":    3,
+  "2026_commits":   42,
+  "2026_contribs": 1663
+}
+  github.com/citizenjc?tab=repositories
 
-  TypeScript     ████████████████████████░░  28.9%
-  JavaScript     ██████████████████████░░░░  23.9%
-  Python         ████████░░░░░░░░░░░░░░░░░░   8.8%
-  CSS            ████████░░░░░░░░░░░░░░░░░░   8.2%
-  PHP            ███████░░░░░░░░░░░░░░░░░░░   7.3%
-  HTML           ███████░░░░░░░░░░░░░░░░░░░   7.3%
-  GDScript       ███████░░░░░░░░░░░░░░░░░░░   7.2%
-  Blade          ██░░░░░░░░░░░░░░░░░░░░░░░░   2.4%
-  Shell          ██░░░░░░░░░░░░░░░░░░░░░░░░   2.2%
-  Java           █░░░░░░░░░░░░░░░░░░░░░░░░░   1.4%
-  Astro          █░░░░░░░░░░░░░░░░░░░░░░░░░   1.0%
-  Others         █░░░░░░░░░░░░░░░░░░░░░░░░░   1.4%
 
-  > Total scanned: 35 repos (16 public, 19 private)
-  > Source: github.com/citizenjc?tab=repositories
-```
+~$ ls -lt ~/repos/ | head -8
+  Jul 21  citizenjc           (you are here)
+  Jul 21  paseo-stack-template (Shell/Docker)
+  Jul  5  ListMiner           (Python)
+  Jun 29  frogward            (TypeScript)
+  Jun 24  cardball            (TypeScript)
+  Mar  2  aether              (TypeScript - P2P chat)
+  Feb  7  openclaw-workspace  (Shell/HTML)
+  Jan  4  ball-rush           (GDScript game)
 
-```
-C:\> type STATS.txt
+~$ cat achievements.txt | head -5
+  Pair Extraordinaire x4
+  Pull Shark x3
+  YOLO
+  Quickdraw
 
-  .-------------------------------------------------------------------.
-  |                                                                   |
-  |  ACCOUNT HEALTH CHECK v2026                                       |
-  |                                                                   |
-  |  Repositories:      35     (16 public, 19 private)                |
-  |  Pull Requests:    331     (merged, reviewed, or open)            |
-  |  Issues:             2     (i don't complain much)                 |
-  |  Stars earned:       3     (humble beginnings)                    |
-  |                                                                   |
-  |  2026 Activity:                                                   |
-  |    Commits:         42                                            |
-  |    Total contribs:  1663                                          |
-  |                                                                   |
-  |  Recent projects:                                                 |
-  |    paseo-stack-template    >>>  Shell/JS/Docker   Jul 2026        |
-  |    ListMiner               >>>  Python            Jul 2026        |
-  |    frogward                >>>  TypeScript        Jun 2026        |
-  |    cardball                >>>  TypeScript        Jun 2026        |
-  |    aether                  >>>  TypeScript        Mar 2026        |
-  |                                                                   |
-  |  ACHIEVEMENTS: Pair Extraordinaire x4  |  Pull Shark x3          |
-  |                YOLO                    |  Quickdraw              |
-  |                                                                   |
-  '-------------------------------------------------------------------'
-```
 
-```
-C:\> type CONTACT.txt
+~$ cat about.txt
+  This README was generated from real GitHub API data.
+  No numbers were fabricated.
+  Last refresh: 2026-07-21
+  Caffeine level: dangerously high.
 
-  .-----------------------.-----------------------------------------.
-  |  CHANNEL              |  ADDRESS                                |
-  |-----------------------+-----------------------------------------|
-  |  GitHub               |  /citizenjc                            |
-  |  E-mail               |  (check commit history)                |
-  |  Pigeon carrier       |  (not accepting at this time)          |
-  |  Smoke signals        |  (requires clear weather)              |
-  '-----------------------'-----------------------------------------'
+  (c) 2026 citizenjc -- All wrongs reserved.
+  Licensed WTFPL -- Do What The Fuck You Want To Public License
 
-  > notes.txt:
-    - This README uses real data pulled from the GitHub API.
-      No numbers were harmed in its generation.
-    - Strapi fork excluded from language stats (4MB of JS vendor
-      code would've made the graph unreadable).
-    - Profile last updated: 2026-07-21
 
-  (c) 2026 citizenjc - All wrongs reserved.
-  Licensed under the WTFPL - Do What The Fuck You Want To Public License
-```
-
-```
-C:\> dir /s
-
-  [citizenjc/]              <DIR>   2026-07-21   Profile README (you are here)
-  [paseo-stack-template/]   <DIR>   2026-07-21   Stack template
-  [ListMiner/]              <DIR>   2026-07-05   Python data mining tool
-  [frogward/]               <DIR>   2026-06-29   TypeScript thing
-  [cardball/]               <DIR>   2026-06-24   TypeScript project
-  [aether/]                 <DIR>   2026-03-02   P2P chat platform
-  [ball-rush/]              <DIR>   2026-01-04   GDScript game
-  [goalrush/]               <DIR>   2026-01-03   GDScript/C# game
-  [cosmik-v3/]              <DIR>   2025-10-29   Astro/CSS site
-
-  35 Dir(s)  (some are private, some are forks, all are labours of love)
-```
-
----
-
-```
-                   -=] SYSTEM READY. AWAITING INPUT. [=-
-
-                              > _
+~$ echo "EOF"
 ```
 
