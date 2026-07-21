@@ -1,34 +1,35 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 600" font-family="'Fira Code', 'Cascadia Code', 'JetBrains Mono', monospace" font-size="13">
   <defs>
     <style>
-      .bg { fill: #1a1b26; }
-      .border { fill: none; stroke: #3b4261; stroke-width: 1.5; }
-      .title-bg { fill: #1f2335; }
-      .title-text { fill: #565f89; font-size: 12px; font-family: sans-serif; font-weight: 600; }
-      .surface { fill: #24283b; }
-      .text { fill: #c0caf5; }
-      .subtext { fill: #a9b1d6; }
-      .blue { fill: #7aa2f7; }
-      .green { fill: #9ece6a; }
-      .peach { fill: #ff9e64; }
-      .pink { fill: #bb9af7; }
-      .cyan { fill: #7dcfff; }
-      .red { fill: #f7768e; }
-      .yellow { fill: #e0af68; }
-      .bar-bg { fill: #24283b; }
-      .bar-pct { fill: #565f89; }
-      .p-user { fill: #7aa2f7; }
-      .p-at { fill: #565f89; }
-      .p-host { fill: #7aa2f7; }
-      .p-dollar { fill: #ff9e64; }
-      .p-cmd { fill: #c0caf5; }
-      .p-cursor { fill: #c0caf5; animation: blink 1.2s step-end infinite; }
-      .label { fill: #9ece6a; }
-      .value { fill: #c0caf5; }
-      .ach-ok { fill: #9ece6a; }
-      .ach-name { fill: #c0caf5; }
-      .footer-text { fill: #565f89; font-size: 11px; }
-      .window-btn { fill: #3b4261; }
+      /* Oxocarbon (IBM Carbon) palette */
+      .bg { fill: #161616; }
+      .surface { fill: #262626; }
+      .text { fill: #f2f4f8; }
+      .subtext { fill: #c1c7cd; }
+      .blue { fill: #33b1ff; }
+      .cyan { fill: #08bdba; }
+      .green { fill: #42be65; }
+      .peach { fill: #ff832b; }
+      .pink { fill: #ff7eb6; }
+      .red { fill: #fa4d56; }
+      .yellow { fill: #f1c21b; }
+      .border { fill: none; stroke: #393939; stroke-width: 1.5; }
+      .title-bg { fill: #1f1f1f; }
+      .title-text { fill: #6f6f6f; font-size: 12px; font-family: sans-serif; font-weight: 600; }
+      .bar-bg { fill: #262626; }
+      .bar-pct { fill: #6f6f6f; }
+      .p-user { fill: #33b1ff; }
+      .p-at { fill: #6f6f6f; }
+      .p-host { fill: #33b1ff; }
+      .p-dollar { fill: #ff832b; }
+      .p-cmd { fill: #f2f4f8; }
+      .p-cursor { fill: #f2f4f8; animation: blink 1.2s step-end infinite; }
+      .label { fill: #42be65; }
+      .value { fill: #f2f4f8; }
+      .ach-ok { fill: #42be65; }
+      .ach-name { fill: #f2f4f8; }
+      .footer-text { fill: #6f6f6f; font-size: 11px; }
+      .window-btn { fill: #393939; }
       @keyframes blink { 50% { opacity: 0; } }
     </style>
   </defs>
