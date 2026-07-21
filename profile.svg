@@ -1,10 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 580" font-family="'Fira Code', 'Cascadia Code', 'JetBrains Mono', monospace" font-size="13">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 600" font-family="'Fira Code', 'Cascadia Code', 'JetBrains Mono', monospace" font-size="13">
   <defs>
     <style>
-      /* Catppuccin Mocha palette */
       .bg { fill: #1e1e2e; }
+      .border { fill: none; stroke: #585b70; stroke-width: 1.5; }
+      .title-bg { fill: #181825; }
+      .title-text { fill: #6c7086; font-size: 12px; font-family: sans-serif; }
       .surface { fill: #313244; }
-      .accent { fill: #cba6f7; }
       .text { fill: #cdd6f4; }
       .subtext { fill: #a6adc8; }
       .blue { fill: #89b4fa; }
@@ -14,11 +15,10 @@
       .teal { fill: #94e2d5; }
       .red { fill: #f38ba8; }
       .yellow { fill: #f9e2af; }
-      .border { fill: none; stroke: #45475a; stroke-width: 1; }
       .bar-bg { fill: #313244; }
-      .bar-pct { fill: #a6adc8; }
+      .bar-pct { fill: #585b70; }
       .p-user { fill: #89b4fa; }
-      .p-at { fill: #a6adc8; }
+      .p-at { fill: #585b70; }
       .p-host { fill: #89b4fa; }
       .p-dollar { fill: #fab387; }
       .p-cmd { fill: #cdd6f4; }
@@ -27,128 +27,142 @@
       .value { fill: #cdd6f4; }
       .ach-ok { fill: #a6e3a1; }
       .ach-name { fill: #cdd6f4; }
-      .footer { fill: #585b70; font-size: 11px; }
+      .footer-text { fill: #585b70; font-size: 11px; }
+      .window-btn { fill: #45475a; }
       @keyframes blink { 50% { opacity: 0; } }
     </style>
   </defs>
 
-  <!-- Terminal body -->
-  <rect class="bg" x="0" y="0" width="680" height="580" rx="8"/>
+  <!-- Drop shadow -->
+  <rect x="4" y="4" width="700" height="600" rx="10" fill="#11111b" opacity="0.4"/>
 
-  <!-- Thin accent top bar -->
-  <rect class="mauve" x="0" y="0" width="680" height="3" rx="1.5"/>
+  <!-- Outer window border -->
+  <rect class="bg" x="0" y="0" width="700" height="600" rx="8"/>
+  <rect class="border" x="0" y="0" width="700" height="600" rx="8"/>
 
-  <!-- Terminal content area -->
-  <g transform="translate(0, 20)">
+  <!-- Title bar -->
+  <rect class="title-bg" x="1.5" y="1.5" width="697" height="32" rx="6"/>
+  <rect class="title-bg" x="1.5" y="20" width="697" height="13.5"/>
+
+  <!-- Window buttons (minimal dots) -->
+  <circle cx="22" cy="17" r="4.5" class="window-btn"/>
+  <circle cx="38" cy="17" r="4.5" class="window-btn" opacity="0.7"/>
+  <circle cx="54" cy="17" r="4.5" class="window-btn" opacity="0.4"/>
+
+  <!-- Title -->
+  <text x="350" y="21" text-anchor="middle" class="title-text">zsh — citizenjc@github: ~</text>
+
+  <!-- Terminal content -->
+  <g transform="translate(0, 48)">
 
   <!-- Prompt: neofetch -->
-  <text x="16" y="36">
+  <text x="24" y="28">
     <tspan class="p-user">citizenjc</tspan><tspan class="p-at">@</tspan><tspan class="p-host">github</tspan><tspan class="p-dollar">:~$</tspan><tspan class="p-cmd" dx="6">neofetch</tspan>
   </text>
 
-  <text class="label" x="32" y="60">OS</text>
-  <text class="value" x="95" y="60">GitHub Profile</text>
-  <text class="label" x="32" y="78">Shell</text>
-  <text class="value" x="95" y="78">zsh 5.9</text>
-  <text class="label" x="32" y="96">Uptime</text>
-  <text class="value" x="95" y="96">since the dial-up days</text>
-  <text class="label" x="32" y="114">TZ</text>
-  <text class="value" x="95" y="114">UTC (give or take)</text>
+  <text class="label" x="40" y="52">OS</text>
+  <text class="value" x="103" y="52">GitHub Profile</text>
+  <text class="label" x="40" y="70">Shell</text>
+  <text class="value" x="103" y="70">zsh 5.9</text>
+  <text class="label" x="40" y="88">Uptime</text>
+  <text class="value" x="103" y="88">since the dial-up days</text>
+  <text class="label" x="40" y="106">TZ</text>
+  <text class="value" x="103" y="106">UTC (give or take)</text>
 
-  <text class="label" x="280" y="60">Repos</text>
-  <text class="value" x="360" y="60">35</text>
-  <text class="label" x="280" y="78">Pulls</text>
-  <text class="value" x="360" y="78">331</text>
-  <text class="label" x="280" y="96">Issues</text>
-  <text class="value" x="360" y="96">2</text>
-  <text class="label" x="280" y="114">Contribs</text>
-  <text class="value" x="360" y="114">2288 total</text>
+  <text class="label" x="288" y="52">Repos</text>
+  <text class="value" x="368" y="52">35</text>
+  <text class="label" x="288" y="70">Pulls</text>
+  <text class="value" x="368" y="70">331</text>
+  <text class="label" x="288" y="88">Issues</text>
+  <text class="value" x="368" y="88">2</text>
+  <text class="label" x="288" y="106">Contribs</text>
+  <text class="value" x="368" y="106">2288 total</text>
 
   <!-- Separator -->
-  <line class="border" x1="16" y1="135" x2="664" y2="135"/>
+  <line class="border" x1="24" y1="128" x2="676" y2="128"/>
 
   <!-- Prompt: langs -->
-  <text x="16" y="160">
+  <text x="24" y="153">
     <tspan class="p-user">citizenjc</tspan><tspan class="p-at">@</tspan><tspan class="p-host">github</tspan><tspan class="p-dollar">:~$</tspan><tspan class="p-cmd" dx="6">cat langs.txt</tspan>
   </text>
 
-  <text class="value" x="32" y="186">TypeScript</text>
-  <rect class="bar-bg" x="140" y="178" width="200" height="8" rx="4"/>
-  <rect class="blue" x="140" y="178" width="144" height="8" rx="4"/>
-  <text class="bar-pct" x="350" y="186">28.9%</text>
+  <text class="value" x="40" y="179">TypeScript</text>
+  <rect class="bar-bg" x="148" y="171" width="200" height="8" rx="4"/>
+  <rect class="blue" x="148" y="171" width="144" height="8" rx="4"/>
+  <text class="bar-pct" x="358" y="179">28.9%</text>
 
-  <text class="value" x="32" y="204">JavaScript</text>
-  <rect class="bar-bg" x="140" y="196" width="200" height="8" rx="4"/>
-  <rect class="yellow" x="140" y="196" width="119" height="8" rx="4"/>
-  <text class="bar-pct" x="350" y="204">23.9%</text>
+  <text class="value" x="40" y="197">JavaScript</text>
+  <rect class="bar-bg" x="148" y="189" width="200" height="8" rx="4"/>
+  <rect class="yellow" x="148" y="189" width="119" height="8" rx="4"/>
+  <text class="bar-pct" x="358" y="197">23.9%</text>
 
-  <text class="value" x="32" y="222">Python</text>
-  <rect class="bar-bg" x="140" y="214" width="200" height="8" rx="4"/>
-  <rect class="teal" x="140" y="214" width="44" height="8" rx="4"/>
-  <text class="bar-pct" x="350" y="222">8.8%</text>
+  <text class="value" x="40" y="215">Python</text>
+  <rect class="bar-bg" x="148" y="207" width="200" height="8" rx="4"/>
+  <rect class="teal" x="148" y="207" width="44" height="8" rx="4"/>
+  <text class="bar-pct" x="358" y="215">8.8%</text>
 
-  <text class="value" x="32" y="240">CSS</text>
-  <rect class="bar-bg" x="140" y="232" width="200" height="8" rx="4"/>
-  <rect class="mauve" x="140" y="232" width="41" height="8" rx="4"/>
-  <text class="bar-pct" x="350" y="240">8.2%</text>
+  <text class="value" x="40" y="233">CSS</text>
+  <rect class="bar-bg" x="148" y="225" width="200" height="8" rx="4"/>
+  <rect class="mauve" x="148" y="225" width="41" height="8" rx="4"/>
+  <text class="bar-pct" x="358" y="233">8.2%</text>
 
-  <text class="value" x="32" y="258">PHP</text>
-  <rect class="bar-bg" x="140" y="250" width="200" height="8" rx="4"/>
-  <rect class="peach" x="140" y="250" width="36" height="8" rx="4"/>
-  <text class="bar-pct" x="350" y="258">7.3%</text>
+  <text class="value" x="40" y="251">PHP</text>
+  <rect class="bar-bg" x="148" y="243" width="200" height="8" rx="4"/>
+  <rect class="peach" x="148" y="243" width="36" height="8" rx="4"/>
+  <text class="bar-pct" x="358" y="251">7.3%</text>
 
-  <text class="value" x="32" y="276">GDScript</text>
-  <rect class="bar-bg" x="140" y="268" width="200" height="8" rx="4"/>
-  <rect class="blue" x="140" y="268" width="36" height="8" rx="4" opacity="0.7"/>
-  <text class="bar-pct" x="350" y="276">7.2%</text>
+  <text class="value" x="40" y="269">GDScript</text>
+  <rect class="bar-bg" x="148" y="261" width="200" height="8" rx="4"/>
+  <rect class="blue" x="148" y="261" width="36" height="8" rx="4" opacity="0.6"/>
+  <text class="bar-pct" x="358" y="269">7.2%</text>
 
-  <text class="value" x="32" y="294">HTML</text>
-  <rect class="bar-bg" x="140" y="286" width="200" height="8" rx="4"/>
-  <rect class="red" x="140" y="286" width="36" height="8" rx="4"/>
-  <text class="bar-pct" x="350" y="294">7.3%</text>
+  <text class="value" x="40" y="287">HTML</text>
+  <rect class="bar-bg" x="148" y="279" width="200" height="8" rx="4"/>
+  <rect class="red" x="148" y="279" width="36" height="8" rx="4"/>
+  <text class="bar-pct" x="358" y="287">7.3%</text>
 
-  <text class="value" x="32" y="312">Shell</text>
-  <rect class="bar-bg" x="140" y="304" width="200" height="8" rx="4"/>
-  <rect class="green" x="140" y="304" width="11" height="8" rx="4"/>
-  <text class="bar-pct" x="350" y="312">2.2%</text>
+  <text class="value" x="40" y="305">Shell</text>
+  <rect class="bar-bg" x="148" y="297" width="200" height="8" rx="4"/>
+  <rect class="green" x="148" y="297" width="11" height="8" rx="4"/>
+  <text class="bar-pct" x="358" y="305">2.2%</text>
 
-  <text class="value" x="32" y="330">Java</text>
-  <rect class="bar-bg" x="140" y="322" width="200" height="8" rx="4"/>
-  <rect class="peach" x="140" y="322" width="7" height="8" rx="4" opacity="0.6"/>
-  <text class="bar-pct" x="350" y="330">1.4%</text>
+  <text class="value" x="40" y="323">Java</text>
+  <rect class="bar-bg" x="148" y="315" width="200" height="8" rx="4"/>
+  <rect class="peach" x="148" y="315" width="7" height="8" rx="4" opacity="0.6"/>
+  <text class="bar-pct" x="358" y="323">1.4%</text>
 
-  <text class="value" x="32" y="348">Astro</text>
-  <rect class="bar-bg" x="140" y="340" width="200" height="8" rx="4"/>
-  <rect class="peach" x="140" y="340" width="5" height="8" rx="4" opacity="0.4"/>
-  <text class="bar-pct" x="350" y="348">1.0%</text>
+  <text class="value" x="40" y="341">Astro</text>
+  <rect class="bar-bg" x="148" y="333" width="200" height="8" rx="4"/>
+  <rect class="peach" x="148" y="333" width="5" height="8" rx="4" opacity="0.4"/>
+  <text class="bar-pct" x="358" y="341">1.0%</text>
 
   <!-- Separator -->
-  <line class="border" x1="16" y1="365" x2="664" y2="365"/>
+  <line class="border" x1="24" y1="358" x2="676" y2="358"/>
 
   <!-- Prompt: achievements -->
-  <text x="16" y="390">
+  <text x="24" y="383">
     <tspan class="p-user">citizenjc</tspan><tspan class="p-at">@</tspan><tspan class="p-host">github</tspan><tspan class="p-dollar">:~$</tspan><tspan class="p-cmd" dx="6">cat achievements.log</tspan>
   </text>
 
-  <text class="ach-ok" x="32" y="414">[ok]</text>
-  <text class="ach-name" x="70" y="414">Pair Extraordinaire  x4</text>
-  <text class="ach-ok" x="32" y="432">[ok]</text>
-  <text class="ach-name" x="70" y="432">Pull Shark           x3</text>
-  <text class="ach-ok" x="32" y="450">[ok]</text>
-  <text class="ach-name" x="70" y="450">YOLO</text>
-  <text class="ach-ok" x="32" y="468">[ok]</text>
-  <text class="ach-name" x="70" y="468">Quickdraw</text>
+  <text class="ach-ok" x="40" y="407">[ok]</text>
+  <text class="ach-name" x="78" y="407">Pair Extraordinaire  x4</text>
+  <text class="ach-ok" x="40" y="425">[ok]</text>
+  <text class="ach-name" x="78" y="425">Pull Shark           x3</text>
+  <text class="ach-ok" x="40" y="443">[ok]</text>
+  <text class="ach-name" x="78" y="443">YOLO</text>
+  <text class="ach-ok" x="40" y="461">[ok]</text>
+  <text class="ach-name" x="78" y="461">Quickdraw</text>
 
   <!-- Final prompt + cursor -->
-  <text x="16" y="496">
+  <text x="24" y="489">
     <tspan class="p-user">citizenjc</tspan><tspan class="p-at">@</tspan><tspan class="p-host">github</tspan><tspan class="p-dollar">:~$</tspan><tspan class="p-cursor" dx="2">&#9608;</tspan>
   </text>
 
-  <!-- tmux-style status line -->
-  <rect class="surface" x="16" y="515" width="648" height="22" rx="4"/>
-  <text class="footer" x="26" y="530">citizenjc@github</text>
-  <text class="footer" x="340" y="530" text-anchor="middle">profile data from github api</text>
-  <text class="footer" x="656" y="530" text-anchor="end">2026-07-21</text>
+  <!-- Status line -->
+  <rect class="surface" x="24" y="508" width="652" height="22" rx="4"/>
+  <text class="footer-text" x="34" y="523">citizenjc@github</text>
+  <text class="footer-text" x="350" y="523" text-anchor="middle">profile data from github api</text>
+  <text class="footer-text" x="666" y="523" text-anchor="end">2026-07-21</text>
 
   </g>
 </svg>
