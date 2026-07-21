@@ -3,7 +3,7 @@
                        JOAO CAMPOS / citizenjc
                        ------------------------
                        "full-stack by day,
-                        godot/rust by night"
+                        awake by night"
 ===============================================================================
 
 ~$ whoami
