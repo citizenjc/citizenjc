@@ -2,11 +2,12 @@
   <defs>
     <style>
       /* Tokyo Night palette */
-      .bg { fill: #1a1b26; }
+      .bg { fill: rgba(26, 27, 38, 0.88); }
+      .bg-solid { fill: #1a1b26; }
       .border { fill: none; stroke: #3b4261; stroke-width: 1.5; }
-      .title-bg { fill: #1f2335; }
+      .title-bg { fill: rgba(31, 35, 53, 0.92); }
       .title-text { fill: #565f89; font-size: 12px; font-family: sans-serif; font-weight: 600; }
-      .surface { fill: #24283b; }
+      .surface { fill: rgba(36, 40, 59, 0.92); }
       .blue { fill: #7aa2f7; }
       .green { fill: #9ece6a; }
       .peach { fill: #ff9e64; }
@@ -40,7 +41,7 @@
   </defs>
 
   <!-- Night sky background -->
-  <rect class="bg" x="0" y="0" width="760" height="720"/>
+  <rect class="bg-solid" x="0" y="0" width="760" height="720"/>
 
   <!-- Subtle sky gradient -->
   <rect x="0" y="0" width="760" height="720" fill="url(#skyGrad)" opacity="0.15"/>
