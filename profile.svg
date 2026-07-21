@@ -195,7 +195,7 @@
   </g>
 
   <!-- Drop shadow for terminal -->
-  <rect x="31" y="76" width="700" height="590" rx="10" fill="#0f0f18" opacity="0.6"/>
+  <rect x="29" y="74" width="700" height="590" rx="10" fill="#0f0f18" opacity="0.5"/>
 
   <!-- Terminal window -->
   <g transform="translate(25, 70)">
