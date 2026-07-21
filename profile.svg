@@ -74,16 +74,20 @@
 
   <!-- Full Moon -->
   <g>
-    <animateTransform attributeName="transform" type="translate" values="635 38;635 41;635 38" dur="6s" repeatCount="indefinite"/>
-    <circle r="18" fill="#c0caf5" opacity="0.9"/>
-    <circle r="14" fill="#1a1b26" opacity="0.08"/>
+    <animateTransform attributeName="transform" type="translate" values="632 36;632 40;632 36" dur="6s" repeatCount="indefinite"/>
+    <circle r="26" fill="#c0caf5" opacity="0.15">
+      <animate attributeName="opacity" values="0.1;0.22;0.1" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="22" fill="#c0caf5"/>
     <!-- Craters -->
-    <circle r="2.5" cx="-6" cy="-5" fill="#a9b1d6" opacity="0.3"/>
-    <circle r="3.5" cx="4" cy="-2" fill="#a9b1d6" opacity="0.2"/>
-    <circle r="1.5" cx="-3" cy="6" fill="#a9b1d6" opacity="0.25"/>
-    <circle r="2" cx="8" cy="5" fill="#a9b1d6" opacity="0.15"/>
-    <circle r="1" cx="-8" cy="2" fill="#a9b1d6" opacity="0.2"/>
-    <circle r="1.8" cx="-1" cy="-8" fill="#a9b1d6" opacity="0.15"/>
+    <circle r="3" cx="-8" cy="-6" fill="#a9b1d6" opacity="0.35"/>
+    <circle r="4.5" cx="5" cy="-4" fill="#a9b1d6" opacity="0.25"/>
+    <circle r="2" cx="-4" cy="8" fill="#a9b1d6" opacity="0.3"/>
+    <circle r="2.5" cx="10" cy="6" fill="#a9b1d6" opacity="0.2"/>
+    <circle r="1.5" cx="-10" cy="3" fill="#a9b1d6" opacity="0.25"/>
+    <circle r="2" cx="0" cy="-12" fill="#a9b1d6" opacity="0.2"/>
+    <circle r="1.5" cx="-5" cy="-12" fill="#a9b1d6" opacity="0.15"/>
+    <circle r="1.8" cx="12" cy="-1" fill="#a9b1d6" opacity="0.15"/>
   </g>
 
   <!-- Shooting star 1 -->
@@ -111,14 +115,14 @@
   <g opacity="0">
     <animateTransform attributeName="transform" type="translate" from="120 110" to="370 -150" dur="15s" repeatCount="indefinite" begin="4s"/>
     <animate attributeName="opacity" values="0;0;0.8;0.8;0;0" keyTimes="0;0.05;0.1;0.85;0.92;1" dur="15s" repeatCount="indefinite" begin="4s"/>
-    <g transform="rotate(-45)">
-      <polygon points="0,-14 -3,-6 3,-6" fill="#c0caf5"/>
-      <rect x="-4" y="-6" width="8" height="10" rx="1" fill="#c0caf5"/>
-      <polygon points="-4,4 -7,6 -4,6" fill="#c0caf5" opacity="0.7"/>
-      <polygon points="4,4 7,6 4,6" fill="#c0caf5" opacity="0.7"/>
-      <rect x="-2" y="-4" width="4" height="3" rx="1" fill="#7aa2f7" opacity="0.6"/>
-      <ellipse cx="0" cy="5" rx="2" ry="3" fill="#ff9e64">
-        <animate attributeName="opacity" values="0.5;1;0.5" dur="0.3s" repeatCount="indefinite"/>
+    <g transform="rotate(45)">
+      <polygon points="0,-14 -4,-6 4,-6" fill="#c0caf5"/>
+      <rect x="-5" y="-6" width="10" height="10" rx="1.5" fill="#c0caf5"/>
+      <polygon points="-5,4 -8,7 -5,7" fill="#c0caf5" opacity="0.7"/>
+      <polygon points="5,4 8,7 5,7" fill="#c0caf5" opacity="0.7"/>
+      <rect x="-2.5" y="-4" width="5" height="3" rx="1" fill="#7aa2f7" opacity="0.6"/>
+      <ellipse cx="0" cy="5" rx="2.5" ry="4" fill="#ff9e64">
+        <animate attributeName="opacity" values="0.4;0.9;0.4" dur="0.3s" repeatCount="indefinite"/>
       </ellipse>
     </g>
   </g>
@@ -127,14 +131,14 @@
   <g opacity="0">
     <animateTransform attributeName="transform" type="translate" from="400 80" to="570 -120" dur="18s" repeatCount="indefinite" begin="10s"/>
     <animate attributeName="opacity" values="0;0;0.6;0.6;0;0" keyTimes="0;0.05;0.1;0.85;0.92;1" dur="18s" repeatCount="indefinite" begin="10s"/>
-    <g transform="rotate(-45)">
-      <polygon points="0,-10 -2,-4 2,-4" fill="#c0caf5"/>
-      <rect x="-3" y="-4" width="6" height="8" rx="0.8" fill="#c0caf5"/>
-      <polygon points="-3,4 -5,6 -3,6" fill="#c0caf5" opacity="0.7"/>
-      <polygon points="3,4 5,6 3,6" fill="#c0caf5" opacity="0.7"/>
+    <g transform="rotate(45)">
+      <polygon points="0,-10 -3,-4 3,-4" fill="#c0caf5"/>
+      <rect x="-3.5" y="-4" width="7" height="7" rx="1" fill="#c0caf5"/>
+      <polygon points="-3.5,3 -6,5 -3.5,5" fill="#c0caf5" opacity="0.7"/>
+      <polygon points="3.5,3 6,5 3.5,5" fill="#c0caf5" opacity="0.7"/>
       <rect x="-1.5" y="-3" width="3" height="2" rx="0.8" fill="#7dcfff" opacity="0.6"/>
-      <ellipse cx="0" cy="4" rx="1.5" ry="2.5" fill="#ff9e64">
-        <animate attributeName="opacity" values="0.5;1;0.5" dur="0.25s" repeatCount="indefinite"/>
+      <ellipse cx="0" cy="4" rx="1.5" ry="3" fill="#ff9e64">
+        <animate attributeName="opacity" values="0.4;0.9;0.4" dur="0.25s" repeatCount="indefinite"/>
       </ellipse>
     </g>
   </g>
