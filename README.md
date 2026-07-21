@@ -1,67 +1,48 @@
-```
-===============================================================================
-                       JOAO CAMPOS / citizenjc
-                       ------------------------
-                       "full-stack by day,
-                        awake by night"
-===============================================================================
+<pre>
 
-~$ whoami
-  Joao Campos. Code tinkerer, bug farmer, occasional game dev.
-  Full-stack generalist with a taste for retro aesthetics and
-  experimental side projects.
+  |  _ \ __ _ ___ ___  ___  / _ \ / ___| |   |_ _| | | | |_   _|
+  | |_) / _` / __/ __|/ _ \| | | | |   | |    | || | | |   | |
+  |  __/ (_| \__ \__ \ (_) | |_| | |___| |___ | || |_| |   | |
+  |_|   \__,_|___/___/\___/ \__\_\\____|_____|___|\___/    |_|
 
-~$ uptime
-  Status:   ONLINE
-  Since:    the dial-up days
-  TZ:       UTC (give or take)
+  joao campos / citizenjc
+</pre>
 
+### about
 
-~$ du -sh ~/repos 2>/dev/null
-  Total: 35 repos (16 public, 19 private)
+full-stack by day, awake by night. i build things, break things,
+and occasionally fix things. currently wandering full-stack dev
+with a taste for retro aesthetics and experimental side projects.
 
+### languages & tools
 
-~$ cat languages.csv | column -t -s,
-  Language       Bytes       Share
-  TypeScript     846.9 kB    28.9%
-  JavaScript     702.1 kB    23.9%
-  Python         258.6 kB     8.8%
-  CSS            242.5 kB     8.2%
-  PHP            213.5 kB     7.3%
-  HTML            72.9 kB     7.3%
-  GDScript       212.6 kB     7.2%
-  Blade           70.5 kB     2.4%
-  Shell           66.2 kB     2.2%
-  Java            41.6 kB     1.4%
-  Astro           28.5 kB     1.0%
-  Others          40.9 kB     1.4%
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=fff)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=000)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=fff)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=fff)
+![GDScript](https://img.shields.io/badge/GDScript-478CBF?style=flat-square&logo=godot&logoColor=fff)
+![Shell](https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnu-bash&logoColor=fff)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=fff)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=fff)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=fff)
 
-~$ cat account-stats.json | jq '.'
-{
-  "repos":              35,
-  "pull_requests":     331,
-  "issues":              2,
-  "stars_earned":        3,
-  "2026_contribs":    1666   (most in private repos)
-}
+### stats
 
-~$ cat achievements.txt | head -5
-  Pair Extraordinaire x4
-  Pull Shark x3
-  YOLO
-  Quickdraw
+| metric | value |
+|---|---|
+| repos | 35 _(16 public, 19 private)_ |
+| pull requests | 331 |
+| issues filed | 2 |
+| 2026 contributions | 1666 _(mostly private repos)_ |
 
+### achievements
 
-~$ cat about.txt
-  This README was generated from real GitHub API data.
-  No numbers were fabricated.
-  Last refresh: 2026-07-21
-  Caffeine level: dangerously high.
+![Pair Extraordinaire](https://img.shields.io/badge/Pair_Extraordinaire-4x-805AD5?style=flat-square)
+![Pull Shark](https://img.shields.io/badge/Pull_Shark-3x-805AD5?style=flat-square)
+![YOLO](https://img.shields.io/badge/YOLO-805AD5?style=flat-square)
+![Quickdraw](https://img.shields.io/badge/Quickdraw-805AD5?style=flat-square)
 
-  (c) 2026 citizenjc -- All wrongs reserved.
-  Licensed WTFPL -- Do What The Fuck You Want To Public License
+---
 
-
-~$ echo "EOF"
-```
-
+_last updated 2026-07-21 | profile data pulled from the github api_
