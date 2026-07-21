@@ -1,1 +1,1 @@
-<img src="https://raw.githubusercontent.com/citizenjc/citizenjc/3516d7b159f868c5eda18b7005be574962d6c106/profile.svg" alt="citizenjc terminal profile">
+<img src="https://raw.githubusercontent.com/citizenjc/citizenjc/5cb6c156d0403b8e0e43eae84284d4098efa81e5/profile.svg" alt="citizenjc terminal profile">
