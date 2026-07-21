@@ -322,6 +322,7 @@
     <rect class="bar-bg" x="148" y="333" width="200" height="8" rx="4"/>
     <rect class="peach" x="148" y="333" width="5" height="8" rx="4" opacity="0.4"/>
     <text class="bar-pct" x="358" y="341">1.0%</text>
+    </g>
     <!-- Separator -->
     <g opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="4.4s" fill="freeze"/>
