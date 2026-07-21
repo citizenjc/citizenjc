@@ -228,7 +228,9 @@
     <!-- Terminal content -->
     <g transform="translate(0, 48)">
 
-    <!-- Prompt: neofetch -->
+    <!-- Section 1: neofetch (appears at 0.5s) -->
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.5s" fill="freeze"/>
     <text x="24" y="28">
       <tspan class="p-user">citizenjc</tspan><tspan class="p-at">@</tspan><tspan class="p-host">github</tspan><tspan class="p-dollar">:~$</tspan><tspan class="p-cmd" dx="6">neofetch</tspan>
     </text>
@@ -250,11 +252,14 @@
     <text class="value" x="368" y="88">2</text>
     <text class="label" x="288" y="106">Contribs</text>
     <text class="value" x="368" y="106">2288 total</text>
+    </g>
 
     <!-- Separator -->
     <line class="border" x1="24" y1="128" x2="676" y2="128"/>
 
-    <!-- Prompt: langs -->
+    <!-- Section 2: langs (appears at 1.5s) -->
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.5s" fill="freeze"/>
     <text x="24" y="153">
       <tspan class="p-user">citizenjc</tspan><tspan class="p-at">@</tspan><tspan class="p-host">github</tspan><tspan class="p-dollar">:~$</tspan><tspan class="p-cmd" dx="6">cat langs.txt</tspan>
     </text>
@@ -308,11 +313,14 @@
     <rect class="bar-bg" x="148" y="333" width="200" height="8" rx="4"/>
     <rect class="peach" x="148" y="333" width="5" height="8" rx="4" opacity="0.4"/>
     <text class="bar-pct" x="358" y="341">1.0%</text>
+    </g>
 
     <!-- Separator -->
     <line class="border" x1="24" y1="358" x2="676" y2="358"/>
 
-    <!-- Prompt: achievements -->
+    <!-- Section 3: achievements (appears at 2.5s) -->
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="2.5s" fill="freeze"/>
     <text x="24" y="383">
       <tspan class="p-user">citizenjc</tspan><tspan class="p-at">@</tspan><tspan class="p-host">github</tspan><tspan class="p-dollar">:~$</tspan><tspan class="p-cmd" dx="6">cat achievements.log</tspan>
     </text>
@@ -325,8 +333,11 @@
     <text class="ach-name" x="78" y="443">YOLO</text>
     <text class="ach-ok" x="40" y="461">[ok]</text>
     <text class="ach-name" x="78" y="461">Quickdraw</text>
+    </g>
 
-    <!-- Final prompt + cursor -->
+    <!-- Section 4: final prompt + cursor (appears at 3.5s) -->
+    <g opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="3.5s" fill="freeze"/>
     <text x="24" y="489">
       <tspan class="p-user">citizenjc</tspan><tspan class="p-at">@</tspan><tspan class="p-host">github</tspan><tspan class="p-dollar">:~$</tspan><tspan class="p-cursor" dx="2">&#9608;</tspan>
     </text>
@@ -336,7 +347,7 @@
     <text class="footer-text" x="34" y="523">citizenjc@github</text>
     <text class="footer-text" x="350" y="523" text-anchor="middle">profile data from github api</text>
     <text class="footer-text" x="666" y="523" text-anchor="end">2026-07-21</text>
-
+    </g>
     </g>
   </g>
 </svg>
